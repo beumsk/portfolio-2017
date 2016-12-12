@@ -1,0 +1,25 @@
+body {
+  background-image: url('img/html.png');
+  background-position: bottom;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#home, #skills, #portfolio, #contact {
+  background-color: rgba(238, 238, 238, 0.8);
+}
+
+footer {
+  background-color: #222222;
+  color: #ffffff;
+}
+
+.fa {
+  padding: 0 5px;
+}
+
+@media screen and (min-width: 768px) {
+  #home, #skills, #portfolio, #contact {
+    min-height: 100vh;
+  }
+}
