@@ -214,18 +214,18 @@
 		    <div class="container">
 		      <h1 class="well"><i class="glyphicon glyphicon-envelope"></i> Contact Me</h1><br><br>
 		      <!--form-->
-		      <form action="contact-form-handler.php" method="post" name="contactform" enctype="text/plain" class="well col-md-7">
+		      <form action="contact-form-handler.php" method="POST" name="contactform" class="well col-md-7">
 		      	<div class="form-group">
-		      		<label>Name</label>
+		      		<label for="name">Name *</label>
 		      		<input id="text" type="text" name="name" placeholder="Insert your full name" class="form-control">
 		      	</div>
 		      	<div class="form-group">
-		      		<label>Email</label>
+		      		<label for="email">Email *</label>
 		      		<input id="email" type="email" name="email" placeholder="youremail@youremail.com" class="form-control">
 		      	</div>
 		      	<div class="form-group">
-		      		<label>Message</label>
-		      		<textarea id="textarea" name="message" class="form-control" placeholder="Your Message"></textarea>
+		      		<label for="message">Message *</label>
+		      		<textarea id="message" name="message" class="form-control" placeholder="Your Message"></textarea>
 		      	</div>
 		      	<div class="form-group">
 		      		<button id="send_form" type="submit" value="submit" class="btn btn-info">Send</button>
