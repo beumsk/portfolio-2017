@@ -281,23 +281,6 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script><!--jQuery library-->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script><!--Latest compiled JavaScript-->
-    <script>
-    	// smooth scrollspy
-    	$(function () {
-			  $('li>a').on('click', function(e) {
-			    e.preventDefault();
-			    var hash = this.hash;
-			    $('html, body').animate({
-			      scrollTop: $(this.hash).offset().top
-			    }, 500, function(){
-			      window.location.hash = hash;
-			    });
-			  });
-
-			});
-    	$('#send_form').on('click', function() {
-    		$('#send_form').text('Thank you !')
-    	})
-    </script>
+    <script src="script.js"></script><!--external js file-->
   </body>
 </html>
