@@ -6,3 +6,5 @@ The pictures are personal creations.
 
 To do : 
 -create alerts for the form's errors (JS?)
+-change home text (delete 'welcome to my website' at least; may add an image)
+
