@@ -1,5 +1,7 @@
+/* change main color to #33B883 green */
+
 body {
-  background-image: url('img/html.png');
+  background-image: url('img/html.jpg');
   background-position: bottom;
   background-size: cover;
   background-attachment: fixed;
@@ -7,6 +9,13 @@ body {
 
 #home, #skills, #portfolio, #contact {
   background-color: rgba(238, 238, 238, 0.8);
+}
+
+.carousel-caption {
+  color: whitesmoke;
+  text-shadow: 0 0 8px grey;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
 }
 
 footer {
