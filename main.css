@@ -1,5 +1,9 @@
 /* change main color to #33B883 green */
 
+* {
+  font-family: 'Overpass Mono', monospace;
+}
+
 body {
   background-image: url('img/html.jpg');
   background-position: bottom;
@@ -9,6 +13,14 @@ body {
 
 #home, #skills, #portfolio, #contact {
   background-color: rgba(238, 238, 238, 0.8);
+}
+
+.navbar-brand {
+  line-height: 25px !important;
+}
+
+#home p {
+  font-size: 18px;
 }
 
 .carousel-caption {
