@@ -1,7 +1,8 @@
 <?php 
 $errors = '';
-$myemail = 'remy.beumier@gmail.com';//<-----Put Your email address here.
-if(empty($_POST['name'])  || 
+$myemail = 'remy.beumier@gmail.com';//email address here.
+
+/*if(empty($_POST['name'])  || 
    empty($_POST['email']) || 
    empty($_POST['message']))
 {
@@ -17,7 +18,7 @@ if (!preg_match(
 $email_address))
 {
     $errors .= "\n Error: Invalid email address";
-}
+}*/
 
 if( empty($errors))
 {
